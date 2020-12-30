@@ -1,0 +1,138 @@
+body {
+  color: #fff;
+  background-color: #D6CCCC;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a:visited,
+a:active,
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  margin-top: 70px;
+}
+
+.container h1 {
+  text-align: center;
+  color: black;
+}
+
+.remonty1,
+.remonty2,
+.remonty3,
+.remonty4,
+.remonty5,
+.remonty6,
+.remonty7,
+.remonty8,
+.remonty9,
+.remonty10,
+.remonty11,
+.remonty12,
+.remonty13,
+.remonty14,
+.remonty15 {
+  width: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.remonty9,
+.remonty10,
+.remonty11,
+.remonty12,
+.remonty13,
+.remonty14 {
+  height: 169px;
+}
+
+.remonty1,
+.remonty2,
+.remonty3,
+.remonty4,
+.remonty5,
+.remonty6,
+.remonty7,
+.remonty8,
+.remonty15 {
+  width: 169px;
+  height: 300px;
+}
+
+.remonty1 {
+  background-image: url("../pic/remonty1_Easy-Resize.com.jpg");
+}
+
+.remonty2 {
+  background-image: url("../pic/remonty2_Easy-Resize.com.jpg");
+}
+
+.remonty3 {
+  background-image: url("../pic/remonty3_Easy-Resize.com.jpg");
+}
+
+.remonty4 {
+  background-image: url("../pic/remonty4_Easy-Resize.com.jpg");
+}
+
+.remonty5 {
+  background-image: url("../pic/remonty8_Easy-Resize.com.jpg");
+}
+
+.remonty6 {
+  background-image: url("../pic/remonty6_Easy-Resize.com.jpg");
+}
+
+.remonty7 {
+  background-image: url("../pic/remonty7_Easy-Resize.com.jpg");
+}
+
+.remonty14 {
+  background-image: url("../pic/remonty5_Easy-Resize.com.jpg");
+}
+
+.remonty9 {
+  background-image: url("../pic/remonty10_Easy-Resize.com.jpg");
+}
+
+.remonty10 {
+  background-image: url("../pic/remonty11_Easy-Resize.com.jpg");
+}
+
+.remonty11 {
+  background-image: url("../pic/remonty12_Easy-Resize.com.jpg");
+}
+
+.remonty12 {
+  background-image: url("../pic/remonty13_Easy-Resize.com.jpg");
+}
+
+.remonty13 {
+  background-image: url("../pic/remonty14_Easy-Resize.com.jpg");
+}
+
+.remonty8 {
+  background-image: url("../pic/remonty9_Easy-Resize.com.jpg");
+}
+
+.remonty15 {
+  background-image: url("../pic/remonty15_Easy-Resize.com.jpg");
+}
+
+@media (min-width: 767px) {
+  .pic-div {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}

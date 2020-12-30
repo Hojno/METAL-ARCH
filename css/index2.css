@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #fff;
+  background-color: #D6CCCC;
+}
+
+a:visited,
+a:active,
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+.container h1 {
+  text-align: center;
+  color: black;
+}
+
+.elewacje1,
+.elewacje2,
+.elewacje3,
+.elewacje4,
+.elewacje5,
+.elewacje6,
+.elewacje7,
+.elewacje8,
+.elewacje9 {
+  width: 300px;
+  height: 169px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.elewacje1,
+.elewacje2,
+.elewacje3 {
+  width: 95px;
+}
+
+.heading {
+  padding-top: 60px;
+  text-align: center;
+  color: black;
+}
+
+.container {
+  margin-top: -1px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 95px 95px 95px;
+  gap: 10px;
+}
+
+.elewacje1 {
+  background-image: url("../pic/Elewacje 1_Easy-Resize.com.jpg");
+}
+
+.elewacje2 {
+  background-image: url("../pic/Elewacje 2_Easy-Resize.com.jpg");
+}
+
+.elewacje4 {
+  background-image: url("../pic/Elewacje 3_Easy-Resize.com.jpg");
+}
+
+.elewacje3 {
+  background-image: url("../pic/Elewacje 4_Easy-Resize.com.jpg");
+}
+
+.elewacje5 {
+  background-image: url("../pic/Elewacje 5_Easy-Resize.com.jpg");
+}
+
+.elewacje6 {
+  background-image: url("../pic/Elewacje 6_Easy-Resize.com.jpg");
+}
+
+.elewacje7 {
+  background-image: url("../pic/Elewacje 7_Easy-Resize.com.jpg");
+}
+
+.elewacje8 {
+  background-image: url("../pic/Elewacje 8_Easy-Resize.com.jpg");
+}
+
+.elewacje9 {
+  background-image: url("../pic/Elewacje 9_Easy-Resize.com.jpg");
+}
+
+@media (min-width: 767px) {
+  .pic-div {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .container {
+    gap: 200px;
+  }
+}
